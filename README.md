@@ -13,7 +13,7 @@ The project follows these steps:
 
 **2. Loading the Dataset:**  MLflow was imported, and auto logging was enabled to track experiments and automatically log metrics for different input parameters and outputs. The dataset, FaultDataset, was read into a Spark DataFrame called 'FaultsDF'. The header and inferSchema were set to 'true' to consider the first row as the header and automatically infer the data types. A quick check was performed to ensure the correctness of the inferred data types.
 
-**3. Exploratory Analysis:**  The vibration data from the various sensors were visualized to understand their distribution. The majority of the values are less than 0.2.
+**3. Exploratory Analysis:**  The vibration data from the various sensors were visualized to understand their distribution. 
 
    The correlation heat map indicates a positive correlation between vibrations in the production line, possibly due to vibration transmission or mechanical connections. Scatter plot matrices also align with the heat map observation.
    
