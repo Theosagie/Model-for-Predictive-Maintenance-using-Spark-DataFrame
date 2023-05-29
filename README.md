@@ -3,7 +3,8 @@ The aim of the project is to classify whether there is a fault with a machine ba
 # **Dataset**
 The dataset used in this project is called FaultDataset.csv. Each row in the dataset represents twenty vibration sensor readings, and the last column identifies whether there was a fault with the machine at the time of the readings. A value of 0 indicates no fault, while a value of 1 indicates a fault.
 
-# **Note:** The dataset should be uploaded to the following location: `/FileStore/tables/FaultDataset.csv` on Databricks.
+ **Note:** 
+The dataset should be uploaded to the following location: `/FileStore/tables/FaultDataset.csv` on Databricks.
 
 # **Project Steps**
 The project follows these steps:
